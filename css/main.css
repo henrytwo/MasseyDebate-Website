@@ -118,7 +118,7 @@ p {
 #cover {
     background-position: center top;
     background-attachment: fixed;
-    min-height: 100%;
+    background-size: 100vmax;
 }
 .slide {
     margin-top: 50vh;
@@ -141,7 +141,6 @@ p {
     padding-bottom: 0%;
     background: rgba(49, 60, 75, 0.6);
     min-height: 500px;
-    height: 100%;
 }
 
 #spacer {
