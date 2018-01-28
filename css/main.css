@@ -1,28 +1,7 @@
 /* General styling*/
-@import url('//fonts.googleapis.com/css?family=Raleway+Extra-Bold:400,900&subset=latin,latin-ext');
-@import url('//fonts.googleapis.com/css?family=Raleway&subset=latin,latin-ext');
-@font-face {
-    font-family: RalewayExtraBold;
-    src: url("../fonts/Raleway-ExtraBold.ttf");
-}
-@font-face {
-    font-family: RalewaySemiBold;
-    src: url("../fonts/Raleway-SemiBold.ttf");
-}
-@font-face{
-    font-family: RalewayThin;
-    src: url("../fonts/Raleway-Thin.ttf");
-}
-@font-face{
-    font-family: RalewayRegular;
-    src: url("../fonts/Raleway-Regular.ttf");
-}
-@font-face{
-    font-family: RalewayLight;
-    src: url("../fonts/Raleway-Light.ttf");
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 *{
-    font-family: RalewaySemiBold, sans-serif;
+    font-family: Montserrat, sans-serif;
 }
 
 a {
@@ -33,17 +12,16 @@ a:hover {
 }
 h1 {
     font-size: 4em;
+    font-family: "Montserrat SemiBold", sans-serif;
     text-align:center;
     margin: 30px;
 }
 h3{
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 
 h4{
     font-size: 2.5em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
     font-size: 1.2em;
@@ -182,7 +160,7 @@ p {
 }
 .cover-content p {
     font-size: 1.6em;
-    font-family: RalewayLight;
+    font-family: "Montserrat Light", sans-serif;
 }
 /* Larger Screens */
 @media screen and (min-width: 720px) {
