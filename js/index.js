@@ -1,7 +1,6 @@
 $(document).ready(function () {
-
     var bgresize = function () {
-        if ($(window).width() <= 767) {
+        if ($(window).width() <= 800) {
             $("#smallcaption").removeClass("hidden");
             $("#bigcaption").addClass("hidden");
         } else {

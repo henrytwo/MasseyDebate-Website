@@ -23,6 +23,7 @@ Department Head: You Zhou
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="css/main.css" type="text/css" rel="stylesheet"/>
+    <link href="css/jquery-sakura.min.css" rel="stylesheet" type="text/css">
     <link href="https://use.fontawesome.com/releases/v5.0.2/css/all.css" rel="stylesheet">
 
     <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
@@ -48,8 +49,13 @@ Department Head: You Zhou
 
             <div id="cover-text">
                 <h1 style="margin: 15px">Massey Debate Invitational<br></h1>
-                <p id="bigcaption"><i class="fa fa-map-marker" aria-hidden="true"></i> Vincent Massey Secondary School | <i class="fa fa-calendar" aria-hidden="true"></i> March 24<sup style="font-family: RalewayThin">th</sup> 2018</p>
-                <p id="smallcaption" class="hidden">Vincent Massey Secondary School<br>March 24<sup style="font-family: RalewayThin">th</sup> 2018</p>
+                <p id="bigcaption"><i class="fa fa-map-marker" aria-hidden="true"></i> Vincent Massey Secondary School | <i class="fa fa-calendar" aria-hidden="true"></i> March 24<sup style="font-family: RalewayThin">th</sup> 2018 | <i class="fa fa-clock" aria-hidden="true"></i> 8:30am - 5:30pm</p>
+                <p id="smallcaption" class="hidden">March 24<sup style="font-family: RalewayThin">th</sup> 2018<br>8:30am-5:30pm<br><br>Vincent Massey Secondary School</p>
+            </div>
+
+            <div class="center-block text-center btn-group">
+                <a href="https://masseydebateclub.typeform.com/to/D3jft7" target="_blank" style="padding: 5px"><button type="button" class="btn btn-large">Student</button></a>
+                <a href="https://masseydebateclub.typeform.com/to/kSISQW" target="_blank" style="padding: 5px"><button type="button" class="btn btn-large">Teacher</button></a>
             </div>
 
         </div>
@@ -59,10 +65,15 @@ Department Head: You Zhou
 </div>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js" crossorigin="anonymous"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
 
 <script src = "js/index.js" type = "text/javascript"></script>
-
+<script src = "js/jquery-sakura.min.js"></script>
+<script>
+    $(window).load(function () {
+        $('body').sakura();
+    });
+</script>
 </html>

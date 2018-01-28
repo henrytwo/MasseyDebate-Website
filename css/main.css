@@ -50,6 +50,30 @@ p {
     line-height: 1.4em;
 }
 
+
+.btn {
+    width: 200px;
+    height: 50px;
+    background-color: white;
+    color: #0A1939;
+    border-color: #0A1939;
+    transition: all 0.3s ease 0s;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.btn:hover {
+    background-color: #0A1939;
+    color: white;
+    border-color: #0A1939;
+}
+
+.btn:active {
+    background-color: #0A1939;
+    color: white;
+    border-color: #0A1939;
+}
+
 .zoom {
     transition: transform .2s;
     transform: scale(1);
@@ -113,7 +137,7 @@ p {
     padding: 0;
 }
 .cover-image {
-    background: url('../images/websitebkg.svg');
+    background: url('../images/bg.png');
 }
 #cover {
     background-position: center top;
@@ -140,7 +164,7 @@ p {
     padding-top: 0%;
     padding-bottom: 0%;
     background: rgba(49, 60, 75, 0.6);
-    min-height: 500px;
+    min-height: 450px;
 }
 
 #spacer {
@@ -164,7 +188,7 @@ p {
 @media screen and (min-width: 720px) {
     /* Sections */
     .cover-content img {
-        width: 50%;
+        width: 30%;
     }
 
     .cover-content {
@@ -197,7 +221,7 @@ p {
 
     .cover-content img {
         max-width: 240px;
-        width: 70%;
+        width: 60%;
     }
 
     .cover-content {
