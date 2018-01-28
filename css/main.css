@@ -33,23 +33,23 @@ p {
     width: 200px;
     height: 50px;
     background-color: white;
-    color: #0A1939;
-    border-color: #0A1939;
+    color: #C75875;
+    border-color: #C75875;
     transition: all 0.3s ease 0s;
     margin-bottom: 5px;
     margin-top: 5px;
 }
 
 .btn:hover {
-    background-color: #0A1939;
+    background-color: #C75875;
     color: white;
-    border-color: #0A1939;
+    border-color: #C75875;
 }
 
 .btn:active {
-    background-color: #0A1939;
+    background-color: #C75875;
     color: white;
-    border-color: #0A1939;
+    border-color: #C75875;
 }
 
 .zoom {
